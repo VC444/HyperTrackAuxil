@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vignesh.hypertrackauxil.LoginActivity">
+
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/login_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Phone Number"
+        android:layout_below="@+id/login_name"
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/login_btn_loader"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_phone_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn_loader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="97dp"
+        android:text="Button" />
+
+</RelativeLayout>
