@@ -1,7 +1,10 @@
 package com.example.vignesh.hypertrackauxil;
 
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.hypertrack.lib.HyperTrackMapFragment;
 
@@ -17,6 +20,5 @@ public class MapActivity extends AppCompatActivity{
          */
         HyperTrackMapFragment hyperTrackMapFragment = (HyperTrackMapFragment)
                 getSupportFragmentManager().findFragmentById(R.id.htMapfragment);
-
     }
 }

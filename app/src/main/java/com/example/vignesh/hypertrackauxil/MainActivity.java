@@ -48,8 +48,8 @@ public class MainActivity extends AppCompatActivity {
     private void initUIViews() {
         // Initialize AssignAction Button
         Button logoutButton = (Button) findViewById(R.id.logout_btn);
-        if (logoutButton != null)
-            logoutButton.setOnClickListener(logoutButtonClickListener);
+        //if (logoutButton != null)
+        //    logoutButton.setOnClickListener(logoutButtonClickListener);
 
         actionId = (EditText) findViewById(R.id.actionId);
 
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    // Click Listener for AssignAction Button
+    /* Click Listener for AssignAction Button
     private View.OnClickListener logoutButtonClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -152,4 +152,5 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
     };
+    */
 }
